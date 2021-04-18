@@ -1,3 +1,9 @@
 html {
     scroll-behavior: smooth;
   }
+#list-view{
+  background-color: rgb(132,136,139);
+  margin: 2%;
+  width: 40%;
+  height: auto;
+}
