@@ -1,9 +1,14 @@
 .content{
     height:380px;
-    background-image:url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+  
+    
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .photo{
     
@@ -31,4 +36,18 @@
     padding: 3.5%; 
     border-radius: 25%;
     box-sizing: content-box;
+ }
+ #form-name{
+    background-color: #f1f1f1;
+    border: 1px solid transparent;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+ }
+ .view-more{
+   
+    text-align: center;
+ }
+ #decor{
+    text-decoration: none;
  }

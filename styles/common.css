@@ -14,14 +14,68 @@ body {
     height: 60px;
     width: 60px;
     border-radius: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .social-media-icons {
     height: 20px;
     width: 22px;
 }
-header{
-    background-color: rosybrown;   
+.social-media {
+    float: right;
+    margin-bottom: auto;
+    margin-top: auto;
+    box-sizing: border-box;
 }
-footer{
-    background-color: rosybrown;   
+
+.social-media-icons {
+    float: left;
+    margin-right: 10px;
+}
+header {
+    background-color: rosybrown;
+}
+footer {
+    background-color: rosybrown;
+}
+
+.header1,
+.footer1 {
+    width: 100%;
+    position: sticky;
+    font-family: "Ubuntu", sans-serif;
+    overflow-y: hidden;
+}
+.header1 {
+    top: 0;
+    width: 100%;
+}
+
+.footer1 {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.room {
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+.login {
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.footer1::before,
+.footer1::after,
+.header1::before,
+.header1::after {
+    box-sizing: border-box;
 }

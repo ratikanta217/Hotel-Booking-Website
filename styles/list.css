@@ -6,4 +6,8 @@ html {
   margin: 2%;
   width: 40%;
   height: auto;
+  display:inline-block;
+}
+#map-view{
+  display:none;
 }
