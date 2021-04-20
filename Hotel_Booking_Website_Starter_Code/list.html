@@ -7,51 +7,78 @@
     <title>List</title>
     <link rel="stylesheet" href="styles/list.css">
     <link rel="stylesheet" href="styles/common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
     <div>
-        <header>
+        <header class="header1">
             <a href="index.html"><img src="assests/images/logo.png" class="logo" alt="logo" ></a>
-            <a href="login.html"><span>Login</span></a>
+            <a href="login.html"><span class="login" style="color:black">Login</span></a>
         </header>  
-        <div class="content">
-            <ul>
-            <a href="#list-view"><li>List View</li></a>
-            <a href="#map-view"><li>Map View</li></a>
-            </ul>
-            <div id="list-view">
-                <a href="detail.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" height="250px" width="250px">
-                <h3>Redisson Blu Hotel</h3>
-                <p>5 Star</p>
-                <p>New Delhi</p></a>
+        <div class="content" font-family='Ubuntu', sans-serif style="color:black;">
+           <p style="text-align:center;">
+            <a href="#list-view" style="color:black;text-decoration:none;"><strong>List View </strong></a>
+          
+            <a href="#map-view" style="color:black;text-decoration:none;"><strong>Map View</strong></a>
+        </p>
+          
+            <div id="list-view" font-family='Ubuntu', sans-serif >
+                <a href="detail.html"  style="text-decoration:none;"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" height="250px" width="250px">
+                <h3 style="color: black;">Redisson Blu Hotel</h3>
+                <p style="color:black" >5 Star</p>
+                <p style="color:black">New Delhi</p></a>
             </div>
-            <div id="list-view"><img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" height="250px" width="250px">
+            <div id="list-view" font-family='Ubuntu', sans-serif style="color:black"><img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" height="250px" width="250px">
                 <h3>The Lalit New Delhi</h3>
                 <p>4.5 Star</p>
                 <p>New Delhi</p>
-            </div>   
-            <div id="list-view"><img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" height="250px" width="250px">
+            </div>  
+      
+        
+            <div id="list-view" font-family='Ubuntu', sans-serif style="color:black"><img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" height="250px" width="250px">
                 <h3>Taj Palace</h3>
                 <p>4.0 Star</p>
                 <p>New Delhi</p>
             </div> 
-            <div id="map-view"><img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" height="1100px" width="1100px">
+            <div id="map-view" font-family='Ubuntu', sans-serif><img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" height="1100px" width="1100px">
                 
-                <p>MAP VIEW</p>
+                <p style="color:black">MAP VIEW</p>
             </div> 
+      
         </div>
        
-        <footer>
-         
-            <a href="contact.html">Contact Us</a>
-            <br />
-            <a href="https://www.facebook.com/upGradGlobal/" target="_blank"><img src="assests/images/facebook.png" class="social-media-icons" /></a>
-            <a href="https://www.instagram.com/upgrad_edu/?hl=en" target="_blank"><img src="assests/images/instagram.png" class="social-media-icons"/></a>
-            <a href="https://twitter.com/upGrad_edu" target="_blank"><img src="assests/images/twitter.png" class="social-media-icons" /></a>
-        
-            <div>© 2020 ROOM SEARCH PVT. LTD.</div>
-            
-        </footer>   
+        <footer class="footer1">
+            <div class="contact-us">
+                <a href="contact.html" style="text-decoration: none"
+                    ><p class="contact" style="color: black">Contact Us</p></a
+                >  </p></a
+                    >
+            </div>
+            <p class="room" style="color: black">
+                © 2020 ROOM SEARCH PVT. LTD.
+            </p>
+            <div class="social-media">
+                <a
+                    href="https://www.facebook.com/upGradGlobal/"
+                    target="_blank"
+                    ><img
+                        src="assests/images/facebook.png"
+                        class="social-media-icons"
+                /></a>
+                <a
+                    href="https://www.instagram.com/upgrad_edu/?hl=en"
+                    target="_blank"
+                    ><img
+                        src="assests/images/instagram.png"
+                        class="social-media-icons"
+                /></a>
+                <a href="https://twitter.com/upGrad_edu" target="_blank"
+                    ><img
+                        src="assests/images/twitter.png"
+                        class="social-media-icons"
+                /></a>
+            </div>
+        </footer>
     </div>
     
 </body>

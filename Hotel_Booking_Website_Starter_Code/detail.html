@@ -1,41 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detail</title>
-    <link rel="stylesheet" href="styles/common.css">
-    <link rel="stylesheet" href="styles/detail.css">
-</head>
-<body>
-    <div>
-        <header>
-            <a href="index.html"><img src="assests/images/logo.png" class="logo" alt="logo" ></a>
-            <a href="login.html"><span>Login</span></a>
-        </header>  
-        <div class="content">
-            
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Detail</title>
+        <link rel="stylesheet" href="styles/common.css" />
+        <link rel="stylesheet" href="styles/detail.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div>
+            <header class="header1">
+                <a href="index.html"
+                    ><img src="assests/images/logo.png" class="logo" alt="logo"
+                /></a>
+                <a href="login.html"><span class="login">Login</span></a>
+            </header>
+            <div class="content">
                 <div class="poolside">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" height="500px" width="500px">
+                    <img
+                        src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                        height="500px"
+                        width="500px"
+                    />
                 </div>
-            <div class="booknow">
-                <form action="payment.html" method="get">
-                <label for="adults">Adults:</label>
-                <input type="number" id="adults" name="adults" min="1" max="5" required><br>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br>
-                <label for="fromdate">From Date:</label>
-                <input type="date" id="fromdate" name="fromdate" required><br>
-                <label for="todate">To Date:</label>
-                <input type="date" id="todate" name="todate" required><br> 
-                <label for="total">Total:</label>  
-                <input type="number" id="total" name="total" readonly><br>   
-                <a href="payment.html"><button id="login">Book Now</button></a>
-                </form> 
-            </div>
-                <div class="description">
-                <h2>Redisson Blu Hotel</h2>
+                <div class="booknow" font-family="Ubuntu" , sans-serif>
+                    <form action="payment.html" method="get">
+                        <label for="adults">Adults:</label>
+                        <input
+                            type="number"
+                            id="adults"
+                            name="adults"
+                            min="1"
+                            max="5"
+                            required
+                        /><br />
+                        <label for="name">Name:</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                        /><br />
+                        <label for="fromdate">From Date:</label>
+                        <input
+                            type="date"
+                            id="fromdate"
+                            name="fromdate"
+                            required
+                        /><br />
+                        <label for="todate">To Date:</label>
+                        <input
+                            type="date"
+                            id="todate"
+                            name="todate"
+                            required
+                        /><br />
+                        <label for="total">Total:</label>
+                        <input
+                            type="number"
+                            id="total"
+                            name="total"
+                            readonly
+                        /><br />
+                        <a href="payment.html"
+                            ><button id="login">Book Now</button></a
+                        >
+                    </form>
+                </div>
+                <div class="description" font-family="Ubuntu" , sans-serif>
+                    <h2>Redisson Blu Hotel</h2>
                     <p>RATING</p>
                     <p>5 Star</p>
                     <h4>AMENITIES</h4>
@@ -47,23 +85,46 @@
                         <li>Pool</li>
                     </ul>
                     <h5>DESCRIPTION</h5>
-                
-                <span>
-                    qwertyuuiiopljhgfdqaxsdftyui hjiuytrr ghjkiopouyre vbhhtrress bnhytgdeeer bhuuyrewadvbnmm bhukll.mnbgyujhhbbnm nhytytffdsdfghnbnbm mnjuygfdrt.bnmjioojuyrweassdffggghjkkjh.
-                </span>
+                    <span>
+                        qwertyuuiiopljhgfdqaxsdftyui hjiuytrr ghjkiopouyre
+                        vbhhtrress bnhytgdeeer bhuuyrewadvbnmm
+                        bhukll.mnbgyujhhbbnm nhytytffdsdfghnbnbm
+                        mnjuygfdrt.bnmjioojuyrweassdffggghjkkjh.
+                    </span>
                 </div>
+            </div>
+            <footer class="footer1">
+                <div class="contact-us">
+                    <a href="contact.html" style="text-decoration: none"
+                        ><p class="contact" style="color: black">Contact Us</p></a
+                    >  </p></a
+                        >
+                </div>
+                <p class="room" style="color: black">
+                    © 2020 ROOM SEARCH PVT. LTD.
+                </p>
+                <div class="social-media">
+                    <a
+                        href="https://www.facebook.com/upGradGlobal/"
+                        target="_blank"
+                        ><img
+                            src="assests/images/facebook.png"
+                            class="social-media-icons"
+                    /></a>
+                    <a
+                        href="https://www.instagram.com/upgrad_edu/?hl=en"
+                        target="_blank"
+                        ><img
+                            src="assests/images/instagram.png"
+                            class="social-media-icons"
+                    /></a>
+                    <a href="https://twitter.com/upGrad_edu" target="_blank"
+                        ><img
+                            src="assests/images/twitter.png"
+                            class="social-media-icons"
+                    /></a>
+                </div>
+            </footer>
         </div>
-        <footer>
-           
-            <a href="contact.html">Contact Us</a>
-            <br />
-            <a href="https://www.facebook.com/upGradGlobal/" target="_blank"><img src="assests/images/facebook.png" class="social-media-icons" /></a>
-            <a href="https://www.instagram.com/upgrad_edu/?hl=en" target="_blank"><img src="assests/images/instagram.png" class="social-media-icons" /></a>
-            <a href="https://twitter.com/upGrad_edu" target="_blank"><img src="assests/images/twitter.png" class="social-media-icons"/></a>
-        
-            <div>© 2020 ROOM SEARCH PVT. LTD.</div>
-        </footer>  
-    </div>
-    
-</body>
+    </body>
 </html>

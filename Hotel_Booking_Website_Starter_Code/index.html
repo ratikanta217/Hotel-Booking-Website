@@ -9,16 +9,18 @@
     <title>index</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
 <body>
     <div>
-        <header>
+        <header class="header1">
             <img src="assests/images/logo.png" class="logo" alt="logo" >
-            <a href="login.html"><span>Login</span></a>
+            <a href="login.html"><span class="login" style="color:black">Login</span></a>
            
         </header>  
         <div class="content">
-            <input type="text" id="form-name" name="name" placeholder="City"/>
+            
+            <input type="text" id="form-name" name="name" placeholder="City" />
         </div>
          <div class="photo">  
            <span>
@@ -28,21 +30,42 @@
             <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" class="image3" height="150px" width="150px">
           </span>
         </div>
-        <div>
-         <a href="index.html">View more>></a>
+        <div  class="view-more" font-family='Ubuntu', sans-serif>
+         <a id="decor" href="index.html" ><p style="color:black" >View more>></p></a>
           
         </div>
-        <footer>
-         
-            <a href="contact.html">Contact Us</a>
-            <br />
-            <a href="https://www.facebook.com/upGradGlobal/" target="_blank"><img src="assests/images/facebook.png" class="social-media-icons" /></a>
-            <a href="https://www.instagram.com/upgrad_edu/?hl=en" target="_blank"><img src="assests/images/instagram.png" class="social-media-icons" /></a>
-            <a href="https://twitter.com/upGrad_edu" target="_blank"><img src="assests/images/twitter.png" class="social-media-icons" /></a>
-        
-            <div>© 2020 ROOM SEARCH PVT. LTD.</div>
-            
-        </footer>  
+        <footer class="footer1">
+            <div class="contact-us">
+                <a href="contact.html" style="text-decoration: none"
+                    ><p class="contact" style="color: black">Contact Us</p></a
+                >  </p></a
+                    >
+            </div>
+            <p class="room" style="color: black">
+                © 2020 ROOM SEARCH PVT. LTD.
+            </p>
+            <div class="social-media">
+                <a
+                    href="https://www.facebook.com/upGradGlobal/"
+                    target="_blank"
+                    ><img
+                        src="assests/images/facebook.png"
+                        class="social-media-icons"
+                /></a>
+                <a
+                    href="https://www.instagram.com/upgrad_edu/?hl=en"
+                    target="_blank"
+                    ><img
+                        src="assests/images/instagram.png"
+                        class="social-media-icons"
+                /></a>
+                <a href="https://twitter.com/upGrad_edu" target="_blank"
+                    ><img
+                        src="assests/images/twitter.png"
+                        class="social-media-icons"
+                /></a>
+            </div>
+        </footer>
     </div>
     
 </body>
