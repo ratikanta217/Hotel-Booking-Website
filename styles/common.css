@@ -16,6 +16,7 @@ body {
     border-radius: 30px;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 1%;
 }
 .social-media-icons {
     height: 20px;
@@ -26,14 +27,17 @@ body {
     margin-bottom: auto;
     margin-top: auto;
     box-sizing: border-box;
+    margin-right: 2%;
 }
 
 .social-media-icons {
     float: left;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 header {
     background-color: rosybrown;
+    display:flex;
+    justify-content: space-between;
 }
 footer {
     background-color: rosybrown;
@@ -60,7 +64,7 @@ footer {
 }
 .room {
     font-size: 10px;
-    align-self: flex-end;
+    align-self: center;
 }
 
 .login {
@@ -68,9 +72,8 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: auto;
-    margin-top: auto;
+    padding-right: 17px;
+    margin-right: 2%;
 }
 
 .footer1::before,
@@ -78,4 +81,7 @@ footer {
 .header1::before,
 .header1::after {
     box-sizing: border-box;
+}
+.contact-us{
+    margin-left: 1%;
 }

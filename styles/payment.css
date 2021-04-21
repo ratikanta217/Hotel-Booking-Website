@@ -16,8 +16,46 @@
     padding-bottom: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    border: 1px solid black;
+    
     border-radius: 5px;
     box-sizing: content-box;
     
 }
+.content{
+    background-color: rgb(132,136,139);
+    margin: 2% 22%;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  display:inline-flex;
+
+  }
+  
+  .redisson {
+    display: flex;
+    
+    align-items: flex-start;
+  }
+  .hotel-descrp{
+    flex: 1;
+    justify-content: center;
+  }
+  .all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    background-color: rosybrown;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom:7%;
+    width: 95%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .details, .tariff, .paynow{
+    display: flex;
+    justify-content: center;  
+
+  }
