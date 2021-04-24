@@ -1,108 +1,85 @@
 .content{
-    height:380px;
-    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    
-    display: flex;
+  height:380px;
+  background-image:
+  url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
   justify-content: center;
   align-items: center;
-}
-.photo{
+  }
+  .photo{
+  display: flex;
+  justify-content: space-between;
+  
+ 
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 70px;
+  }
+  .image,.image1,.image2,.image3{
+  border-radius: 25%;
+  box-sizing: content-box;
+  box-shadow: 10px 10px 10px grey;
+
+  }
+  #form-name{
+  background-color: #f1f1f1;
+  border: 1px solid transparent;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  }
+  .view-more{
     display: flex;
-    justify-content: space-evenly;
-    margin: 20px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  #decor{
+  text-decoration: none;
+  }
+  .container {
+    position: relative; 
     
-}
-.image{
-  
-   border-radius: 25%;
-   box-sizing: content-box;
-   box-shadow:  10px 10px 10px grey;
-}
-.image1{
-     
-    border-radius: 25%;
-    box-sizing: content-box;
-    box-shadow:  10px 10px 10px grey;
- }
- .image2{
-  
-    border-radius: 25%;
-    box-sizing: content-box;
-    box-shadow:  10px 10px 10px grey;
- }
- .image3{
-    
-    border-radius: 25%;
-    box-sizing: content-box;
-    box-shadow:  10px 10px 10px grey;
- }
- #form-name{
-    background-color: #f1f1f1;
-    border: 1px solid transparent;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 12px;
- }
- .view-more{
-   
-    text-align: center;
- }
- #decor{
-    text-decoration: none;
- }
- .container {
-   position: relative;
-  
- }
-
- .middle {
-   transition: .5s ease;
-   
-   position: absolute;
-  
-   text-align: center;
-   background-color: rgba(0, 0, 0, 0.5);
-   top: 0;
+  }
+  .container .middle {
+  transition: .5s ease;
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
   bottom: 0;
-  left: 0;
+  left: 14px;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: 150px;
+  width: 150px;
   opacity: 0;
-   border-radius: 25%;
- }
- 
- .container:hover .image {
-   opacity: 0.8;
-   
-  
- }
- .container:hover .image1 {
-   opacity: 0.8;
- }
- .container:hover .image2 {
-   opacity: 0.8;
- }
- .container:hover .image3 {
-   opacity: 0.8;
- }
- .container:hover .middle {
-   opacity: 1;
-   
- }
- 
- .text {
-
-   color: #f1f1f1;
-   font-size: 16px;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
- }
- 
+  border-radius: 25%;
+  }
+  .container:hover .image {
+  opacity: 0.5;
+  }
+  .container:hover .image1 {
+  opacity: 0.5;
+  }
+  .container:hover .image2 {
+  opacity: 0.5;
+  }
+  .container:hover .image3 {
+  opacity: 0.5;
+  }
+  .container:hover .middle {
+  opacity: 1;
+  }
+  .text {
+  color: #f1f1f1;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  }

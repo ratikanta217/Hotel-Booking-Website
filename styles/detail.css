@@ -1,43 +1,44 @@
 .poolside{
- margin-top: 2%;
- margin-left: 4%;
- margin-right: 4%;
- margin-bottom: 0%;
-}
-.booknow{
-    margin-top: 0%;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 1%;
-}
-.description{
-    margin-top: 1%;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-bottom: 2%;
-}
-.content{
-    
-    margin: 3%;
-    width: 90%;
-    max-height: 400px;
-    display:inline-flex;
-    border: 1px solid black;
-
-}
-.content {
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 0%;
+  }
+  .booknow{
+  margin-top: 0%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 1%;
+  }
+  .description{
+  margin-top: 1%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 2%;
+  }
+  .content{
+  margin: 3%;
+  width: 90%;
+  max-height: 400px;
+  display:inline-flex;
+  border: 1px solid black;
+  
+  }
+  .content {
   display: flex;
   align-items: flex-start;
-  
-}
-.poolside{
- flex: 3;  
- text-align: center;
- 
-}
-.content .booknow {
+  }
+  .poolside{
+  flex: 3;
+  text-align: center;
+  }
+  .content .booknow {
   flex: 1;
-  padding: 15px;
+  padding: 10px;
   border-left: 1px solid black;
   justify-content: space-between;
-}
+  }
+  #login:hover{
+  background-color: green;
+  }
+  

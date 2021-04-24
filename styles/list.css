@@ -1,43 +1,60 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
   }
-#list-view{
+  #container{
+  display:inline-flex;
+  flex-direction: column;
+  width:100%;
+  }
+  #list-view{
   background-color: lightgrey;
   margin: 2%;
+  margin-left: 5%;
   width: 40%;
   height: auto;
   display:inline-flex;
   
-}
-#map-view{
-  display:none;
-}
-
-
-.list-view1 {
+  }
+  #map-view{
+   
+    margin-left: 8%;
+    
+  }
+  
+  
+  .list-view1 {
   display: flex;
   align-items: flex-start;
   
-}
-.list-view1 .content1 {
+  }
+  .list-view1 .content1 {
   flex: 1;
   padding: 15px;
   
-}
-.list-view2 {
+  }
+  .list-view2 {
   display: flex;
   align-items: flex-start;
-}
-.list-view2 .content2 {
+  }
+  .list-view2 .content2 {
   flex: 1;
   padding: 15px;
-
-}
-.list-view3 {
+  
+  }
+  .list-view3 {
   display: flex;
   align-items: flex-start;
-}
-.list-view3 .content3 {
+  }
+  .list-view3 .content3 {
   flex: 1;
   padding: 15px;
-}
+  }
+  
+  #list-view:hover{
+  background-color: rosybrown;
+  }
+  #pills-tab {
+  
+  justify-content: center;
+  }
+  
